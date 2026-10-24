@@ -1,0 +1,277 @@
+[
+  {
+    "id": "P1",
+    "label": "Asha (synthetic)",
+    "synthetic": true,
+    "district": "D-101",
+    "category": [
+      { "value": "Cat-2", "source": "Form 1: State form", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "marksPct": [
+      { "value": 72, "source": "Mark Sheet", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "attendancePct": [
+      { "value": 78, "source": "Attendance Certificate", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "parentIncome": [
+      { "value": 280000, "source": "Form 1: State form", "enteredAt": "2026-10-25T10:00:00Z" },
+      { "value": 240000, "source": "Form 2: Central form", "enteredAt": "2026-10-25T10:05:00Z" }
+    ],
+    "otherHouseholdIncome": 70000,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "gap" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": null,
+    "incomeCertificate": {
+      "issuedOn": "2025-11-06",
+      "expiresOn": "2026-11-05",
+      "reissue": {
+        "requested": true,
+        "etaDate": "2026-11-02"
+      }
+    },
+    "existingScholarship": {
+      "name": "Existing support (synthetic)",
+      "renewalDue": "2026-11-12",
+      "renewalHours": 2
+    },
+    "freeHoursThisWeek": 11,
+    "connectivity": "unreliable"
+  },
+  {
+    "id": "P2",
+    "label": "Ravi (synthetic)",
+    "synthetic": true,
+    "district": "D-101",
+    "category": [
+      { "value": "Cat-1", "source": "Form 1: State form", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "marksPct": [
+      { "value": 85, "source": "Mark Sheet", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "attendancePct": [
+      { "value": 90, "source": "Attendance Certificate", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "parentIncome": [
+      { "value": 150000, "source": "Form 1: State form", "enteredAt": "2026-10-25T11:00:00Z" },
+      { "value": 150000, "source": "Form 2: Central form", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "otherHouseholdIncome": 0,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "completed" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": null,
+    "incomeCertificate": {
+      "issuedOn": "2026-03-01",
+      "expiresOn": "2027-03-01",
+      "reissue": {
+        "requested": false,
+        "etaDate": null
+      }
+    },
+    "existingScholarship": null,
+    "freeHoursThisWeek": 14,
+    "connectivity": "good"
+  },
+  {
+    "id": "P3",
+    "label": "Meena (synthetic)",
+    "synthetic": true,
+    "district": "D-205",
+    "category": [
+      { "value": "Cat-3", "source": "Form 1: State form", "enteredAt": "2026-10-25T12:00:00Z" }
+    ],
+    "marksPct": [],
+    "attendancePct": [
+      { "value": 74, "source": "Attendance Certificate", "enteredAt": "2026-10-25T12:00:00Z" }
+    ],
+    "parentIncome": [],
+    "otherHouseholdIncome": 0,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "completed" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": null,
+    "incomeCertificate": {
+      "issuedOn": "",
+      "expiresOn": "",
+      "reissue": {
+        "requested": false,
+        "etaDate": null
+      }
+    },
+    "existingScholarship": null,
+    "freeHoursThisWeek": 6,
+    "connectivity": "unreliable"
+  },
+  {
+    "id": "P1b",
+    "label": "P1b (Twin of Asha in D-205)",
+    "synthetic": true,
+    "district": "D-205",
+    "category": [
+      { "value": "Cat-2", "source": "Form 1: State form", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "marksPct": [
+      { "value": 72, "source": "Mark Sheet", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "attendancePct": [
+      { "value": 78, "source": "Attendance Certificate", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "parentIncome": [
+      { "value": 280000, "source": "Form 1: State form", "enteredAt": "2026-10-25T10:00:00Z" },
+      { "value": 240000, "source": "Form 2: Central form", "enteredAt": "2026-10-25T10:05:00Z" }
+    ],
+    "otherHouseholdIncome": 70000,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "gap" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": null,
+    "incomeCertificate": {
+      "issuedOn": "2025-11-06",
+      "expiresOn": "2026-11-05",
+      "reissue": {
+        "requested": true,
+        "etaDate": "2026-11-02"
+      }
+    },
+    "existingScholarship": {
+      "name": "Existing support (synthetic)",
+      "renewalDue": "2026-11-12",
+      "renewalHours": 2
+    },
+    "freeHoursThisWeek": 11,
+    "connectivity": "unreliable"
+  },
+  {
+    "id": "P2b",
+    "label": "P2b (Twin of Ravi in D-205)",
+    "synthetic": true,
+    "district": "D-205",
+    "category": [
+      { "value": "Cat-1", "source": "Form 1: State form", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "marksPct": [
+      { "value": 85, "source": "Mark Sheet", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "attendancePct": [
+      { "value": 90, "source": "Attendance Certificate", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "parentIncome": [
+      { "value": 150000, "source": "Form 1: State form", "enteredAt": "2026-10-25T11:00:00Z" },
+      { "value": 150000, "source": "Form 2: Central form", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "otherHouseholdIncome": 0,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "completed" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": null,
+    "incomeCertificate": {
+      "issuedOn": "2026-03-01",
+      "expiresOn": "2027-03-01",
+      "reissue": {
+        "requested": false,
+        "etaDate": null
+      }
+    },
+    "existingScholarship": null,
+    "freeHoursThisWeek": 14,
+    "connectivity": "good"
+  },
+  {
+    "id": "P4",
+    "label": "P4 (Boundary Test: Marks 70, Att 75)",
+    "synthetic": true,
+    "district": "D-101",
+    "category": [
+      { "value": "Cat-1", "source": "Form 1: State form", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "marksPct": [
+      { "value": 70, "source": "Mark Sheet", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "attendancePct": [
+      { "value": 75, "source": "Attendance Certificate", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "parentIncome": [
+      { "value": 150000, "source": "Form 1: State form", "enteredAt": "2026-10-25T11:00:00Z" }
+    ],
+    "otherHouseholdIncome": 0,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "completed" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": null,
+    "incomeCertificate": {
+      "issuedOn": "2026-03-01",
+      "expiresOn": "2027-03-01",
+      "reissue": {
+        "requested": false,
+        "etaDate": null
+      }
+    },
+    "existingScholarship": null,
+    "freeHoursThisWeek": 14,
+    "connectivity": "good"
+  },
+  {
+    "id": "P5",
+    "label": "P5 (Clean Asha: Gap Documented, Single Income)",
+    "synthetic": true,
+    "district": "D-101",
+    "category": [
+      { "value": "Cat-2", "source": "Form 1: State form", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "marksPct": [
+      { "value": 72, "source": "Mark Sheet", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "attendancePct": [
+      { "value": 78, "source": "Attendance Certificate", "enteredAt": "2026-10-25T10:00:00Z" }
+    ],
+    "parentIncome": [
+      { "value": 240000, "source": "Form 1: State form", "enteredAt": "2026-10-25T10:00:00Z" },
+      { "value": 240000, "source": "Form 2: Central form", "enteredAt": "2026-10-25T10:05:00Z" }
+    ],
+    "otherHouseholdIncome": 70000,
+    "semesters": [
+      { "name": "Sem 1", "status": "completed" },
+      { "name": "Sem 2", "status": "completed" },
+      { "name": "Sem 3", "status": "gap" },
+      { "name": "Sem 4", "status": "completed" }
+    ],
+    "gapExplanation": {
+      "text": "Medical leave",
+      "documentName": "Leave letter"
+    },
+    "incomeCertificate": {
+      "issuedOn": "2025-11-06",
+      "expiresOn": "2026-11-05",
+      "reissue": {
+        "requested": true,
+        "etaDate": "2026-11-02"
+      }
+    },
+    "existingScholarship": {
+      "name": "Existing support (synthetic)",
+      "renewalDue": "2026-11-12",
+      "renewalHours": 2
+    },
+    "freeHoursThisWeek": 11,
+    "connectivity": "unreliable"
+  }
+]

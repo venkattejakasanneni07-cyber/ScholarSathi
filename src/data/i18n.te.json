@@ -1,0 +1,61 @@
+{
+  "syntheticBanner": "SYNTHETIC DEMO DATA. Not real schemes.",
+  "appTitle": "స్కాలర్‌సాథి (ScholarSathi)",
+  "appSubtitle": "స్కాలర్‌షిప్ నిర్ణయ సహాయకుడు",
+  "independentNotice": "స్వతంత్ర డెమో • ప్రోటోటైప్",
+  "demoYear": "విద్యా సంవత్సరం 2026-27 (సింథటిక్)",
+  "likelyNotConfirmed": "అర్హత ఉండవచ్చు (అధికారికంగా నిర్ధారించబడలేదు)",
+  "unmetNotConfirmed": "అనర్హులు (మోడల్ అంచనా)",
+  "unknownNotConfirmed": "తెలియదు (సమాచారం పెండింగ్‌లో ఉంది లేదా విభేదిస్తోంది)",
+  "planningScoreLabel": "Planning score (model estimate, not a prediction of results)",
+  "nav": {
+    "profile": "ప్రొఫైల్ (Profile)",
+    "eligibility": "అర్హత (Eligibility)",
+    "planner": "ప్లానర్ (Planner)",
+    "timeline": "కాలక్రమం (Timeline)",
+    "checks": "తనిఖీలు (Checks)",
+    "evaluation": "మూల్యాంకనం (Evaluation)"
+  },
+  "status": {
+    "met": "అర్హత ఉంది (Met)",
+    "unmet": "అర్హత లేదు (Unmet)",
+    "unknown": "తెలియదు (Unknown)",
+    "notOpenYet": "తర్వాత ప్రారంభమవుతుంది",
+    "open": "ప్రస్తుతం తెరిచి ఉంది",
+    "closed": "ముగిసింది"
+  },
+  "actions": {
+    "checkEligibility": "అర్హతను తనిఖీ చేయండి",
+    "planThisWeek": "ఈ వారం ప్రణాళిక వేసుకోండి",
+    "trackApplications": "దరఖాస్తులను ట్రాక్ చేయండి",
+    "resetDemo": "డెమో డేటాను రీసెట్ చేయండి",
+    "save": "మార్పులను సేవ్ చేయండి",
+    "saved": "ఈ పరికరంలో సేవ్ చేయబడింది",
+    "savingOffline": "సేవింగ్ నిలిపివేయబడింది (ఆఫ్‌లైన్)",
+    "addExplanation": "డాక్యుమెంట్ వివరణను జోడించండి",
+    "copyQuestion": "ప్రశ్నను కాపీ చేయండి",
+    "runEvaluation": "అన్ని మూల్యాంకనాలను అమలు చేయండి",
+    "exportResults": "ఫలితాలను ఎగుమతి చేయండి (JSON)",
+    "applyV2": "అధికారిక నవీకరణ v2 వర్తింపజేయండి (SYNTHETIC)",
+    "revertV1": "v1 కి తిరిగి వెళ్ళండి",
+    "runFairness": "ప్రాక్సీ-స్వాప్ పరీక్షను అమలు చేయండి",
+    "submitDemo": "సమర్పించండి (డెమో)",
+    "resetWeights": "డిఫాల్ట్‌కు రీసెట్ చేయండి"
+  },
+  "contradictions": {
+    "mustFix": "తప్పనిసరిగా సరిచేయాలి (Must-fix)",
+    "warning": "హెచ్చరిక (Warning)",
+    "info": "సమాచారం (Info)",
+    "neutralConflict": "ఈ రెండు విలువలు వేర్వేరుగా ఉన్నాయి. దయచేసి ఏ పత్రం సరైనదో తనిఖీ చేయండి.",
+    "neutralHistory": "ఈ సమాధానం మీ మునుపటి సమాధానం ({date}న {old}) కంటే భిన్నంగా ఉంది. దయచేసి ఏది సరైనదో నిర్ధారించి పత్రాన్ని జతచేయండి."
+  },
+  "sensitivity": {
+    "singleRuleChange": "నియమం {ruleId} నెరవేరినట్లు నిర్ధారించబడితే, మొత్తం ఫలితం Met అవుతుంది.",
+    "conflictAdvice": "అసలు పత్రాలను తనిఖీ చేసి, ఏ విలువ సరైనదో నిర్ధారించండి.",
+    "blockingRule": "నియమం {ruleId} ప్రస్తుతం ఈ పథకాన్ని అడ్డుకుంటోంది."
+  },
+  "connection": {
+    "online": "ఆన్‌లైన్",
+    "offline": "ఆఫ్‌లైన్ (సిమ్యులేషన్)"
+  }
+}

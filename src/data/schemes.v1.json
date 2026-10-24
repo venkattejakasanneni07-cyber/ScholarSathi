@@ -1,0 +1,176 @@
+[
+  {
+    "id": "A",
+    "name": "Merit Support Grant",
+    "synthetic": true,
+    "opensOn": "2026-10-20",
+    "deadline": "2026-11-14",
+    "award": 15000,
+    "effortHours": 3,
+    "rules": [
+      {
+        "id": "A1",
+        "text": "Marks in the last completed year are at least 70%",
+        "field": "marksPct",
+        "op": ">=",
+        "value": 70,
+        "evidence": ["Mark Sheet"]
+      },
+      {
+        "id": "A2",
+        "text": "Annual family income is at most ₹2,60,000",
+        "field": "parentIncome",
+        "op": "<=",
+        "value": 260000,
+        "evidence": ["Family Income Certificate valid on the deadline date"]
+      }
+    ],
+    "excludesWith": ["C"],
+    "officiallyConfirmed": false,
+    "version": "v1"
+  },
+  {
+    "id": "B",
+    "name": "Need-Based Bursary",
+    "synthetic": true,
+    "opensOn": "2026-10-24",
+    "deadline": "2026-11-10",
+    "award": 22000,
+    "effortHours": 5,
+    "rules": [
+      {
+        "id": "B1",
+        "text": "Annual family income is at most ₹2,00,000",
+        "field": "parentIncome",
+        "op": "<=",
+        "value": 200000,
+        "evidence": ["Family Income Certificate"]
+      },
+      {
+        "id": "B2",
+        "text": "Attendance is at least 75%",
+        "field": "attendancePct",
+        "op": ">=",
+        "value": 75,
+        "evidence": ["Attendance Certificate"]
+      }
+    ],
+    "excludesWith": [],
+    "officiallyConfirmed": false,
+    "version": "v1"
+  },
+  {
+    "id": "C",
+    "name": "Continuing Student Award",
+    "synthetic": true,
+    "opensOn": "2026-10-22",
+    "deadline": "2026-11-18",
+    "award": 12000,
+    "effortHours": 2,
+    "rules": [
+      {
+        "id": "C1",
+        "text": "Marks in the last completed year are at least 65%",
+        "field": "marksPct",
+        "op": ">=",
+        "value": 65,
+        "evidence": ["Mark Sheet"]
+      },
+      {
+        "id": "C2",
+        "text": "Attendance is at least 75%",
+        "field": "attendancePct",
+        "op": ">=",
+        "value": 75,
+        "evidence": ["Attendance Certificate"]
+      },
+      {
+        "id": "C3",
+        "text": "Any break in enrolment is explained in writing and supported by a document",
+        "field": "gapDocumented",
+        "op": "documented",
+        "value": null,
+        "evidence": ["Gap Explanation Letter and Document"]
+      }
+    ],
+    "excludesWith": ["A"],
+    "officiallyConfirmed": false,
+    "version": "v1"
+  },
+  {
+    "id": "D",
+    "name": "Regional Merit Prize",
+    "synthetic": true,
+    "opensOn": "2026-11-02",
+    "deadline": "2026-11-25",
+    "award": 9000,
+    "effortHours": 2,
+    "rules": [
+      {
+        "id": "D1",
+        "text": "Marks in the last completed year are at least 70%",
+        "field": "marksPct",
+        "op": ">=",
+        "value": 70,
+        "evidence": ["Mark Sheet"]
+      },
+      {
+        "id": "D2",
+        "text": "Applicant's district is in the eligible district list",
+        "field": "district",
+        "op": "in",
+        "value": ["D-101", "D-102", "D-103"],
+        "evidence": ["Domicile / District Certificate"],
+        "usesProxy": {
+          "attribute": "district",
+          "documentedReason": "Scheme D is limited to listed districts by its published rule D2"
+        }
+      }
+    ],
+    "excludesWith": [],
+    "officiallyConfirmed": false,
+    "version": "v1"
+  },
+  {
+    "id": "E",
+    "name": "Rural Learner Support",
+    "synthetic": true,
+    "opensOn": "2026-10-25",
+    "deadline": "2026-11-16",
+    "award": 14000,
+    "effortHours": 4,
+    "rules": [
+      {
+        "id": "E1",
+        "text": "Attendance is at least 75%",
+        "field": "attendancePct",
+        "op": ">=",
+        "value": 75,
+        "evidence": ["Attendance Certificate"]
+      },
+      {
+        "id": "E2",
+        "text": "Annual family income from all sources is below ₹3,00,000",
+        "field": "householdIncome",
+        "op": "<",
+        "value": 300000,
+        "evidence": ["Family Income Certificate", "Household Income Declaration"],
+        "interpretations": [
+          {
+            "id": "I1",
+            "label": "parents' declared income only",
+            "field": "parentIncome"
+          },
+          {
+            "id": "I2",
+            "label": "parents' income plus income of other earning household members",
+            "field": "householdIncome"
+          }
+        ]
+      }
+    ],
+    "excludesWith": [],
+    "officiallyConfirmed": false,
+    "version": "v1"
+  }
+]

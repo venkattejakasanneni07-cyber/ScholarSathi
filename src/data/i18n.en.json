@@ -1,0 +1,61 @@
+{
+  "syntheticBanner": "SYNTHETIC DEMO DATA. Not real schemes.",
+  "appTitle": "ScholarSathi",
+  "appSubtitle": "Scholarship Decision Assistant",
+  "independentNotice": "Independent Demo • Prototype",
+  "demoYear": "Academic Year 2026-27 (Synthetic)",
+  "likelyNotConfirmed": "Likely eligible (not officially confirmed)",
+  "unmetNotConfirmed": "Unmet (model estimate)",
+  "unknownNotConfirmed": "Unknown (information pending or in conflict)",
+  "planningScoreLabel": "Planning score (model estimate, not a prediction of results)",
+  "nav": {
+    "profile": "Profile",
+    "eligibility": "Eligibility",
+    "planner": "Planner",
+    "timeline": "Timeline",
+    "checks": "Checks",
+    "evaluation": "Evaluation"
+  },
+  "status": {
+    "met": "Met",
+    "unmet": "Unmet",
+    "unknown": "Unknown",
+    "notOpenYet": "Opens Later",
+    "open": "Open Now",
+    "closed": "Closed"
+  },
+  "actions": {
+    "checkEligibility": "Check Eligibility",
+    "planThisWeek": "Plan This Week",
+    "trackApplications": "Track Applications",
+    "resetDemo": "Reset Demo Data",
+    "save": "Save Changes",
+    "saved": "Saved on this device",
+    "savingOffline": "Saving paused (offline)",
+    "addExplanation": "Add a documented explanation",
+    "copyQuestion": "Copy Question",
+    "runEvaluation": "Run All Evaluations",
+    "exportResults": "Export Results (JSON)",
+    "applyV2": "Apply official update v2 (SYNTHETIC)",
+    "revertV1": "Revert to v1",
+    "runFairness": "Run proxy-swap test",
+    "submitDemo": "Submit (demo)",
+    "resetWeights": "Reset to default"
+  },
+  "contradictions": {
+    "mustFix": "Must-fix",
+    "warning": "Warning",
+    "info": "Info",
+    "neutralConflict": "These two values differ. Please check which document is correct.",
+    "neutralHistory": "This answer differs from your earlier answer ({old} on {date}). Please confirm which is correct and attach the document."
+  },
+  "sensitivity": {
+    "singleRuleChange": "If rule {ruleId} is confirmed as met, the overall result becomes Met.",
+    "conflictAdvice": "Check the original documents and confirm which value is correct.",
+    "blockingRule": "Rule {ruleId} currently blocks this scheme."
+  },
+  "connection": {
+    "online": "Online",
+    "offline": "Offline (Simulation)"
+  }
+}

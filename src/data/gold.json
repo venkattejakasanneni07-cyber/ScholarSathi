@@ -1,0 +1,43 @@
+[
+  { "profileId": "P1", "schemeId": "A", "label": "UNKNOWN", "reason": "Parent income conflict: Form 1 has 280000 (>260000) and Form 2 has 240000 (<=260000), yielding UNKNOWN for rule A2." },
+  { "profileId": "P1", "schemeId": "B", "label": "UNMET", "reason": "Both declared parent incomes (280000 and 240000) exceed the 200000 limit in rule B1." },
+  { "profileId": "P1", "schemeId": "C", "label": "UNKNOWN", "reason": "Sem 3 has a gap but gapExplanation is null, leaving rule C3 UNKNOWN." },
+  { "profileId": "P1", "schemeId": "D", "label": "MET", "reason": "Marks 72% >= 70% (rule D1) and district D-101 is in eligible list (rule D2). Both rules Met." },
+  { "profileId": "P1", "schemeId": "E", "label": "UNKNOWN", "reason": "Rule E2 is ambiguous: under I1 (parents income 280000/240000 < 300000) it is Met, but under I2 (income + 70000 = 350000/310000 >= 300000) it is Unmet." },
+
+  { "profileId": "P2", "schemeId": "A", "label": "MET", "reason": "Marks 85% >= 70% and parent income 150000 <= 260000." },
+  { "profileId": "P2", "schemeId": "B", "label": "MET", "reason": "Parent income 150000 <= 200000 and attendance 90% >= 75%." },
+  { "profileId": "P2", "schemeId": "C", "label": "MET", "reason": "Marks 85% >= 65%, attendance 90% >= 75%, and no gap exists in semesters." },
+  { "profileId": "P2", "schemeId": "D", "label": "MET", "reason": "Marks 85% >= 70% and district D-101 is eligible." },
+  { "profileId": "P2", "schemeId": "E", "label": "MET", "reason": "Attendance 90% >= 75%, and income 150000 + 0 < 300000 under both I1 and I2." },
+
+  { "profileId": "P3", "schemeId": "A", "label": "UNKNOWN", "reason": "Marks and parent income not entered (empty), so both A1 and A2 are UNKNOWN." },
+  { "profileId": "P3", "schemeId": "B", "label": "UNMET", "reason": "Attendance is 74% < 75%, so rule B2 is UNMET; in Kleene logic UNMET AND UNKNOWN gives UNMET." },
+  { "profileId": "P3", "schemeId": "C", "label": "UNMET", "reason": "Attendance is 74% < 75%, so rule C2 is UNMET; overall is UNMET." },
+  { "profileId": "P3", "schemeId": "D", "label": "UNMET", "reason": "District D-205 is not in [D-101, D-102, D-103], so rule D2 is UNMET; overall is UNMET." },
+  { "profileId": "P3", "schemeId": "E", "label": "UNMET", "reason": "Attendance is 74% < 75%, so rule E1 is UNMET; overall is UNMET." },
+
+  { "profileId": "P1b", "schemeId": "A", "label": "UNKNOWN", "reason": "Identical to P1: income conflict for rule A2." },
+  { "profileId": "P1b", "schemeId": "B", "label": "UNMET", "reason": "Identical to P1: income exceeds 200000 for rule B1." },
+  { "profileId": "P1b", "schemeId": "C", "label": "UNKNOWN", "reason": "Identical to P1: undocumented gap for rule C3." },
+  { "profileId": "P1b", "schemeId": "D", "label": "UNMET", "reason": "District D-205 is not eligible for Scheme D (rule D2), making Scheme D UNMET." },
+  { "profileId": "P1b", "schemeId": "E", "label": "UNKNOWN", "reason": "Identical to P1: ambiguous rule E2." },
+
+  { "profileId": "P2b", "schemeId": "A", "label": "MET", "reason": "Identical to P2: marks 85% and income 150000 satisfy rules A1 and A2." },
+  { "profileId": "P2b", "schemeId": "B", "label": "MET", "reason": "Identical to P2: income 150000 and attendance 90% satisfy rules B1 and B2." },
+  { "profileId": "P2b", "schemeId": "C", "label": "MET", "reason": "Identical to P2: marks, attendance and no gap satisfy rules C1, C2 and C3." },
+  { "profileId": "P2b", "schemeId": "D", "label": "UNMET", "reason": "District D-205 is not in [D-101, D-102, D-103], so rule D2 is UNMET." },
+  { "profileId": "P2b", "schemeId": "E", "label": "MET", "reason": "Identical to P2: attendance 90% and income < 300000." },
+
+  { "profileId": "P4", "schemeId": "A", "label": "MET", "reason": "Boundary case: Marks exactly 70% >= 70%, income 150000 <= 260000." },
+  { "profileId": "P4", "schemeId": "B", "label": "MET", "reason": "Boundary case: Income 150000 <= 200000, attendance exactly 75% >= 75%." },
+  { "profileId": "P4", "schemeId": "C", "label": "MET", "reason": "Boundary case: Marks 70% >= 65%, attendance exactly 75% >= 75%, no gap." },
+  { "profileId": "P4", "schemeId": "D", "label": "MET", "reason": "Boundary case: Marks exactly 70% >= 70%, district D-101 is eligible." },
+  { "profileId": "P4", "schemeId": "E", "label": "MET", "reason": "Boundary case: Attendance exactly 75% >= 75%, income 150000 < 300000." },
+
+  { "profileId": "P5", "schemeId": "A", "label": "MET", "reason": "Clean Asha: Marks 72% >= 70% and both parent income declarations are 240000 <= 260000." },
+  { "profileId": "P5", "schemeId": "B", "label": "UNMET", "reason": "Parent income 240000 exceeds 200000 limit in rule B1." },
+  { "profileId": "P5", "schemeId": "C", "label": "MET", "reason": "Marks 72% >= 65%, attendance 78% >= 75%, and gap is documented with text and documentName." },
+  { "profileId": "P5", "schemeId": "D", "label": "MET", "reason": "Marks 72% >= 70% and district D-101 is eligible." },
+  { "profileId": "P5", "schemeId": "E", "label": "UNKNOWN", "reason": "Attendance 78% >= 75%, but rule E2 is ambiguous (I1 gives 240000 < 300000 which is Met, I2 gives 240000 + 70000 = 310000 >= 300000 which is Unmet), so overall is UNKNOWN." }
+]

@@ -1,0 +1,61 @@
+{
+  "syntheticBanner": "SYNTHETIC DEMO DATA. Not real schemes.",
+  "appTitle": "स्कॉलर साथी (ScholarSathi)",
+  "appSubtitle": "छात्रवृत्ति निर्णय सहायक",
+  "independentNotice": "स्वतंत्र डेमो • प्रोटोटाइप",
+  "demoYear": "शैक्षणिक वर्ष 2026-27 (सिंथेटिक)",
+  "likelyNotConfirmed": "संभावित रूप से पात्र (आधिकारिक रूप से पुष्ट नहीं)",
+  "unmetNotConfirmed": "अपात्र (मॉडल अनुमान)",
+  "unknownNotConfirmed": "अज्ञात (जानकारी लंबित या विरोधाभास में)",
+  "planningScoreLabel": "Planning score (model estimate, not a prediction of results)",
+  "nav": {
+    "profile": "प्रोफ़ाइल (Profile)",
+    "eligibility": "पात्रता (Eligibility)",
+    "planner": "योजनाकार (Planner)",
+    "timeline": "समयरेखा (Timeline)",
+    "checks": "जाँच (Checks)",
+    "evaluation": "मूल्यांकन (Evaluation)"
+  },
+  "status": {
+    "met": "पात्र (Met)",
+    "unmet": "अपात्र (Unmet)",
+    "unknown": "अज्ञात (Unknown)",
+    "notOpenYet": "बाद में खुलेगा",
+    "open": "खुला है",
+    "closed": "बंद"
+  },
+  "actions": {
+    "checkEligibility": "पात्रता जाँचें",
+    "planThisWeek": "इस सप्ताह की योजना बनाएं",
+    "trackApplications": "आवेदन ट्रैक करें",
+    "resetDemo": "डेमो डेटा रीसेट करें",
+    "save": "परिवर्तन सहेजें",
+    "saved": "इस डिवाइस पर सहेजा गया",
+    "savingOffline": "सहेजना रुका (ऑफ़लाइन)",
+    "addExplanation": "दस्तावेजी स्पष्टीकरण जोड़ें",
+    "copyQuestion": "प्रश्न कॉपी करें",
+    "runEvaluation": "सभी मूल्यांकन चलाएं",
+    "exportResults": "परिणाम निर्यात करें (JSON)",
+    "applyV2": "आधिकारिक अपडेट v2 लागू करें (SYNTHETIC)",
+    "revertV1": "v1 पर वापस जाएं",
+    "runFairness": "प्रॉक्सी-स्वैप परीक्षण चलाएं",
+    "submitDemo": "जमा करें (डेमो)",
+    "resetWeights": "डिफ़ॉल्ट पर रीसेट करें"
+  },
+  "contradictions": {
+    "mustFix": "अनिवार्य सुधार (Must-fix)",
+    "warning": "चेतावनी (Warning)",
+    "info": "सूचना (Info)",
+    "neutralConflict": "ये दोनों मान भिन्न हैं। कृपया जांचें कि कौन सा दस्तावेज़ सही है।",
+    "neutralHistory": "यह उत्तर आपके पिछले उत्तर ({date} को {old}) से भिन्न है। कृपया पुष्टि करें कि कौन सा सही है और दस्तावेज़ संलग्न करें।"
+  },
+  "sensitivity": {
+    "singleRuleChange": "यदि नियम {ruleId} को पूरा माना जाता है, तो समग्र परिणाम Met हो जाएगा।",
+    "conflictAdvice": "मूल दस्तावेज़ों की जाँच करें और पुष्टि करें कि कौन सा मान सही है।",
+    "blockingRule": "नियम {ruleId} वर्तमान में इस योजना को रोकता है।"
+  },
+  "connection": {
+    "online": "ऑनलाइन",
+    "offline": "ऑफ़लाइन (सिम्युलेशन)"
+  }
+}

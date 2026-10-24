@@ -1,0 +1,22 @@
+{
+  "demoToday": "2026-10-26",
+  "defaultReissueDays": 10,
+  "bufferDaysGood": 2,
+  "bufferDaysUnreliable": 3,
+  "pEvidenceValid": 0.97,
+  "pEvidenceReissueBeforeSafe": 0.85,
+  "pEvidenceReissueAfterSafe": 0.40,
+  "pEvidenceMissing": 0.50,
+  "pTimeHighSlack": 0.95,
+  "pTimeLowSlack": 0.75,
+  "pTimeNegativeSlack": 0.10,
+  "pConnectivityGood": 0.99,
+  "pConnectivityUnreliable": 0.92,
+  "unknownPElig": 0.5,
+  "defaultWeights": {
+    "award": 40,
+    "chance": 30,
+    "slack": 10,
+    "effort": 20
+  }
+}
